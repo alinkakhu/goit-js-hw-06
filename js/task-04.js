@@ -9,9 +9,7 @@ function increment() {
 
 }
 function decrement() {
-    if (counterValue <= 0) {
-        return
-    }
+  
     counterValue-=1;
     value.textContent = counterValue;
 }
